@@ -1,0 +1,215 @@
+
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+  width: 100%;
+  background-color: #111111;
+}
+
+/* navbar */
+.navbar{
+  background-color: #1D1D1D;
+}
+.nav-link{
+  font-size: x-large;
+}
+.login{
+  background-color:rgb(52, 52, 189);
+ letter-spacing: 5px;
+  margin-left: 1rem;
+}
+.register{
+  background-color: blueviolet;
+  
+}
+.nav-link{
+  color: white;
+}
+.navbar-brand{
+  margin-left: 0rem;
+  text-transform: uppercase;
+  color: white;
+font-size:large;
+}
+
+.toggler{
+  /* background-color: #0095EB; */
+  background-color: rgb(182, 146, 175);
+  color: rgb(131, 118, 118);
+}
+.toggler-icon{
+  color: green;
+}
+
+
+
+/*///////////////////////// Home Header Slide section/////////////////start */
+.h-img-slide{
+  height: 90vh;
+  /* height: 100%; */
+  width: 100vw;
+}
+
+/* Home Header Slide section  end*/
+
+
+
+/*/////////////////////////  Header  section/////////////////start */
+.header-container{
+ background-image: url('../public/images/headerpic1.jpg'); 
+
+ padding-top: 20rem;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.h-header{
+  text-align: center;
+  display: flex;
+  font-size: 3.5rem;
+  justify-content: center;
+  padding-bottom: 33rem;
+  color: #0095EB;
+  text-transform: uppercase;
+  
+}
+
+/*///////////////////////// Our Services section/////////////////start */
+.services-header{
+background-image: url('../public/images/meeting2.jpg');
+height: 70%;
+width: 100%;
+padding-top: 30rem;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+/* .contact-2nd-row
+  background-color: #1D1D1D;
+} */
+.services-card{
+  background-color: #1D1D1D;
+color: white;
+padding:2rem
+
+}
+.card-title{
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 1rem;
+}
+.card-paragraph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+
+
+/*///////////////////////// contact Us section/////////////////start */
+.contact-header{
+  background-image: url('../public/images/meeting4.jpg');
+  height: 70%;
+  width: 100%;
+  padding-top: 30rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+  .contact-p{
+    color: #999987;
+    margin-left: 1rem;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .input{
+    background-color: #222222;
+color: white;
+padding: 1rem;
+  }
+
+
+
+/*///////////////////////// REGISTER section/////////////////start */
+.form{
+  background-color: #222222;
+  padding:2rem;
+}
+
+
+/*///////////////////////// FOOTER section/////////////////start */
+.f-first-col{
+/* margin-left: 2.4rem; */
+margin-top: 3rem;
+}
+.footer{
+  clip-path: polygon(49% 98%, 98% 82%, 99% 99%, 1% 100%, 0 83%);
+}
+
+.f-first-col ul li {
+list-style-type: none;
+color: white;
+text-transform: uppercase;
+padding-top: 1rem;
+margin-top: 1rem;
+font-size:large;
+text-decoration: none;
+}
+.f-first-col ul li:hover{
+  background-color: #1D1D1D;
+  color: #111111;
+}
+
+
+/* //////////////////O  team  section*/
+.team-card{
+  padding: 0.4rem;
+  border: 2px solid #111111;
+  background-color: #1D1D1D;
+  color: white;
+  margin-bottom: 1rem;
+  height: 90%;
+}
+.o-t-header{
+  font-size: 3rem;
+}
+.team-pic{
+  height: 70%;
+}
+
+.team-card:hover{
+background-color:#0095EB;
+}
+
+
+/* //////////////////////About us section */
+.about-p{
+  color: white;
+  padding: 2rem;
+  display: flex;
+  text-align: justify;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  word-spacing: normal;
+  
+  /* margin-left: 1rem;
+  margin-right: 1rem; */
+}
+.finance-pic{
+  /* margin-left: 3rem; */
+  border: 2px solid  #fff;
+  border-radius: 30px ;
+  height: 45vh;
+}
+
+
